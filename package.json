@@ -1,0 +1,25 @@
+{
+  "name": "jh-manik.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/style.css -o ./public/css/style.css",
+    "dev": "npx tailwindcss -i ./src/css/style.css -o ./public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jh-manik/jh-manik.github.io.git"
+  },
+  "keywords": ["html", "tailwindcss"],
+  "author": "jh-manik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jh-manik/jh-manik.github.io/issues"
+  },
+  "homepage": "https://github.com/jh-manik/jh-manik.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^3.4.17"
+  }
+}
